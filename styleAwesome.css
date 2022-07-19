@@ -1,0 +1,119 @@
+.awesome
+{
+    width: 100%;
+    
+}
+
+.awesome__body
+{
+    width: 1170px;
+    height: 670px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.awesome__header
+{
+    width: 1170px;
+    margin-left: 22px;
+}
+
+.awesome__header_title
+{
+    width: 1170px;
+    height: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+}
+
+.awesome__header_underline
+{
+    background-color: #EC7979;
+    height: 1px;
+    width: 170px;
+    margin-bottom: 40px;
+    margin-left: 490px;
+}
+
+.awesome__header_subtitle
+{
+    width: 1169px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    justify-content: center;
+}
+
+.awesome__information
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.awesome__column
+{
+    height: 345px;
+    width: 370px;
+    margin-left: 30px;
+    
+}
+
+.awesome__icon
+{
+    border: 1px solid #EC7979;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 139px;
+    
+}
+
+.awesome__title
+{
+    width: 369px;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;  
+}
+
+.awesome__text
+{
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+}
