@@ -1,14 +1,14 @@
 
 .tabs
 {
-    width: 1508px;
+    width: 100%;
 }
 
 .tabs__body
 {
     width: 1170px;
     height: 540px;
-    margin: 50px 0px 0px 170px;
+    margin: auto;
 }
 
 .tabs__switcher

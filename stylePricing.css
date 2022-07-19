@@ -1,6 +1,6 @@
 .pricing
 {
-    width: 1508px;
+    width: 100%;
     height: 900px;
     background-color: #F5F5F5;
 }
@@ -8,22 +8,24 @@
 .pricing__body
 {
     width: 1180px;
-    margin-top: 50px;
-    margin-left: 170px;
+    margin: auto;
 }
 
 .pricing__information
 {
-    width: 1180px;
+    display: flex;
+    width: 1170px;
     margin-top: 79px;
+    justify-content: space-between;  
 }
 
 .pricing__column
 {
+    margin: auto;
     display: inline-flex;
     align-items: center;
     width: 370px;
-    flex-direction: column;   
+    flex-direction: column; 
 }
 
 .pricing__column:hover {

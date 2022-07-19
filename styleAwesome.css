@@ -1,6 +1,6 @@
 .awesome
 {
-    width: 1508px;
+    width: 100%;
     
 }
 
@@ -8,14 +8,14 @@
 {
     width: 1170px;
     height: 670px;
-    margin-top: 50px;
-    margin-left: 170px;
+    align-items: center;
+    margin: auto;
 }
 
 .awesome__header
 {
     width: 1170px;
-    margin-left: 22px;
+    margin: auto;
 }
 
 .awesome__header_title
@@ -40,7 +40,7 @@
     height: 1px;
     width: 170px;
     margin-bottom: 40px;
-    margin-left: 490px;
+    margin: auto;
 }
 
 .awesome__header_subtitle
@@ -57,6 +57,7 @@
     text-align: center;
     color: #86878B;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .awesome__information
@@ -71,7 +72,7 @@
 {
     height: 345px;
     width: 370px;
-    margin-left: 30px;
+    margin: auto;
     
 }
 
