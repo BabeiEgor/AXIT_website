@@ -1,0 +1,94 @@
+.customers {
+    width: 100%;
+    height: 744px;
+}
+
+.customers__body {
+    width: 1180px;
+    margin: auto;
+}
+
+.customers__comments {
+    display: flex;
+    height: 340px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.customers__column {
+    display: inline-flex;
+    width: 370px;
+    height: 340px;
+    flex-direction: column;
+}
+
+.customers__column_text {
+    background: #E2E2E2;
+    border-radius: 10px;
+    width: 370px;
+    height: 180px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #86878B;
+    
+}
+
+.customers__column_text_triangle{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #E2E2E2;
+    transform: rotate(-45deg);
+    bottom: 10px;
+    left: 70px;
+}
+
+.customers__column_person {
+    width: 370px;
+    display: inline-flex;
+    margin-top: 66px;
+}
+
+.customers__column_person_photo {
+    height: 70px;
+    width: 70px;
+}
+
+.customers__column_person_info {
+    margin-left: 30px;
+    
+}
+
+.customers__column_person_name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+    height: 54px;
+}
+
+.customers__column_person_job-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 15px;
+    height: 21px;
+}
